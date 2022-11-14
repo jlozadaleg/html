@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>mi primera web html</title>
+</head>
+<body>
+   <!--Tablas-->
+   
+   <!--(ul) Listas no ordenadas-->
+   <ul>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+   </ul>
+
+     <!--(ol) Listas ordenadas-->
+     <ol>
+      <li value="50">Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+   </ol>
+
+   <ol>
+      <li>
+         <ol>
+            <li style="list-style: lower-greek;">Sub Elemento 1 </li>
+            <li style="list-style: lower-greek;">Sub Elemento 2 </li>
+            <li style="list-style: lower-greek;">Sub Elemento 3 </li>
+            <li style="list-style: lower-greek;">Sub Elemento 4 </li>
+         </ol>
+      </li>
+   </ol>
+
+
+   <!--Trabajo con Capas-->
+   <div id="Capa1">
+      <center>
+         <h1 id="Capa1"> Capa 1</h1>
+         <a href="#Capa1">ir a la Capa1</a><br>
+         <a href="#Capa2">ir a la Capa2</a><br>
+         <a href="#Capa3">ir a la Capa3</a><br>
+         <p>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq<br></p>
+         <p>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww<br></p>
+         <p>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq<br></p>
+         <p>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww<br></p>
+         <p>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq<br></p>
+         <p>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww<br></p>
+      </center>
+   </div>
+   <div id="Capa2">
+      <center>
+         <h1> Capa 2</h1>
+         <p>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq<br></p>
+         <p>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww<br></p>
+         <p>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq<br></p>
+         <p>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww<br></p>
+         <p>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq<br></p>
+         <p>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww<br></p>
+         <a href="#Capa1">ir a la Capa1</a>
+      </center>
+   </div>
+   <div id="Capa3">
+      <center>
+         <h1> Capa 3</h1>
+         <p>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq<br></p>
+         <p>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww<br></p>
+         <p>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq<br></p>
+         <p>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww<br></p>
+         <p>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq<br></p>
+         <p>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww<br></p>
+      </center>
+      <a href="#Capa1">ir a la Capa1</a>
+   </div>
+   <form action="formulario" method="post">
+      <label for="nombre">Nombre</label>
+      <input value="Loco" type="text" id="nombre" name="nombre" placeholder="Nombre"/>    
+      <br><br>
+      <label for="apellido">Apellido</label>
+      <input value="Apellido" type="text" id="apellido" name="apellido" placeholder="Apellido"/>    
+      <br>
+      <label for="comentario">Comentario</label><br>
+     <textarea rows="10" cols="50" id="comentario" name="comentario" placeholder="Ingrese Comentario" name="comentario">este es un valor por defecto</textarea>
+      <br>  
+      <button type="button">enviar</button>
+   </form>
+   <h1>primer heading </h1>
+   <h2>segundo heading </h2>
+   <h3>tercer heading</h3>
+   <h4>cuarto heading</h4>
+   <hr>
+   <h5>quinto heading</h5>
+   <h6>sexto heading</h6>
+   <p>Chanchito feliz esta muy feliz</p>
+   <!-- este exto es un comentario y no se muestra en el navegador-->
+   <p>Chanchito triste esta muy triste</p>
+   <p>Chanchito triste esta muy triste.<span style="color:rgba(39, 39, 207, 0.329)">
+      texto es mucho mucho mas largo.</span><br><br> es para 
+      probar una etiqueta span </p><br>
+
+   <a target="_blank" href="https://www.google.com">ir a google</a><br><br>
+   <img src="img/índice.png" width="100"/>
+</body>
+</html>
